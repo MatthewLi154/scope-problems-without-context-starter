@@ -12,6 +12,12 @@ arrowRestSum(0); // => 0
 
 // your code here!
 
+const arrowRestSum = (...num) => {
+  let sum = 0;
+  for (const item of num) { sum += item }
+  return sum
+}
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
