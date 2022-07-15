@@ -24,6 +24,15 @@ console.log(smoothie2("pineapple"));
 
 // your code here
 
+let smoothieMachine = (...params) => {
+  let order = "I'm having a smoothie with "
+  return func = (...moreParams) => {
+    params = params.concat(moreParams);
+
+    return order + params.join(' and ');
+  }
+}
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = smoothieMachine;
