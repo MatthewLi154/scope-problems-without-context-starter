@@ -26,12 +26,22 @@ console.log(smoothie2("pineapple"));
 
 let smoothieMachine = (...params) => {
   let order = "I'm having a smoothie with "
-  return func = (...moreParams) => {
-    params = params.concat(moreParams);
 
-    return order + params.join(' and ');
+  return func = (...moreParams) => {
+    params = params.concat(moreParams)
+    return order + params.join(' and ')
   }
+
 }
+
+// let smoothieMachine = (...params) => {
+//   let order = "I'm having a smoothie with "
+//   return func = (...moreParams) => {
+//     params = params.concat(moreParams);
+
+//     return order + params.join(' and ');
+//   }
+// }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {

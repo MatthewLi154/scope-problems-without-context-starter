@@ -20,6 +20,12 @@ divideByFive(50); // returns 10
 
 // your code here
 
+let dynamicDivide = divisor => {
+  return func = arg => {
+    return arg/divisor
+  }
+}
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

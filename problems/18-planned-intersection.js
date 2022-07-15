@@ -16,6 +16,11 @@ console.log(fame(["a", "f", "z", "b"])); // returns [ 'f', 'a' ]
 *******************************************************************************/
 
 // your code here
+let plannedIntersect = firstArr => {
+  return func = () => {
+
+  }
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 

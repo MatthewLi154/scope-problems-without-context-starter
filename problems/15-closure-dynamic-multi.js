@@ -20,6 +20,14 @@ multiplyByFive(5); // returns 25
 
 // your code here!
 
+let dynamicMultiply = num => {
+  return func = val => {
+    return num*val
+  }
+
+}
+
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
