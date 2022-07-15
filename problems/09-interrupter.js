@@ -26,6 +26,7 @@ let interrupter = interruptingWord => {
     splitSent.forEach(item => {
       newSent.push(item + " " + interruptingWord)
     })
+    newSent[newSent.length-1] = splitSent[splitSent.length-1]
     let interSent = newSent.join(' ')
     return interSent
   }

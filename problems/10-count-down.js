@@ -32,17 +32,15 @@ Example 4:
 
 let countDownTimer = n => {
 
-  let countDown = () => {
-    if (n > 0 ) {
-      n -= 1
-    }
-
-    if (n <= 0 ) {
+  return countDown = () => {
+    n -= 1
+    if (n === 0 ) {
       return "Happy New Year!"
     }
+    else {
+      return countDown;
+    }
   }
-
-  return countDown
 }
 
 let threeDays = countDownTimer(3); // returns a function

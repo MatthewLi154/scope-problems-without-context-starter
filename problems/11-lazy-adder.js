@@ -24,6 +24,22 @@ AFTER YOU ARE FINISHED WITH THIS PROBLEM, ASK FOR A CODE REVIEW
 
 // your code here
 
+let lazyAdder = firstNum => {
+  let add = 0;
+
+  return func = (add) => {
+    return add + firstNum
+  }
+
+}
+
+let firstAdd = lazyAdder(1);
+console.log(firstAdd)
+let secondAdd = firstAdd(2);
+console.log(secondAdd)
+let sum = secondAdd(3);
+console.log(sum); // prints 6
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
